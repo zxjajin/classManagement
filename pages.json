@@ -1,0 +1,52 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/student/student"
+		},
+		{
+			"path": "pages/StudentAdd/StudentAdd"
+		},{
+			"path": "pages/checking/checking"
+		},{
+			"path": "pages/absent/absent"
+		},
+		{
+			"path": "pages/leave/leave"
+		},
+		{
+			"path": "pages/approve/approve"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "班级管理系统",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "学生通信功能",
+				"iconPath": "static/API .png",
+				"selectedIconPath": "static/API_select.png"
+			},
+			{
+				"pagePath": "pages/checking/checking",
+				"text": "学生考勤功能",
+				"iconPath": "static/component .png",
+				"selectedIconPath": "static/component.png"
+			},
+			{
+				"pagePath": "pages/approve/approve",
+				"text": "请假审批",
+				"iconPath": "static/component .png",
+				"selectedIconPath": "static/component.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
